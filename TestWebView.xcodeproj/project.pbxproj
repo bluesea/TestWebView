@@ -13,6 +13,8 @@
 		161EC2921BD868C300F67689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161EC2901BD868C300F67689 /* Main.storyboard */; };
 		161EC2941BD868C300F67689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161EC2931BD868C300F67689 /* Assets.xcassets */; };
 		161EC2971BD868C300F67689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161EC2951BD868C300F67689 /* LaunchScreen.storyboard */; };
+		161EC29F1BD8693200F67689 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 161EC29E1BD8693200F67689 /* test.html */; settings = {ASSET_TAGS = (); }; };
+		161EC2A21BD86ACF00F67689 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161EC2A11BD86ACF00F67689 /* SecondViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		161EC2931BD868C300F67689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		161EC2961BD868C300F67689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		161EC2981BD868C300F67689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		161EC29E1BD8693200F67689 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		161EC2A01BD86ACF00F67689 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		161EC2A11BD86ACF00F67689 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				161EC28B1BD868C300F67689 /* AppDelegate.m */,
 				161EC28D1BD868C300F67689 /* ViewController.h */,
 				161EC28E1BD868C300F67689 /* ViewController.m */,
+				161EC2A01BD86ACF00F67689 /* SecondViewController.h */,
+				161EC2A11BD86ACF00F67689 /* SecondViewController.m */,
+				161EC29E1BD8693200F67689 /* test.html */,
 				161EC2901BD868C300F67689 /* Main.storyboard */,
 				161EC2931BD868C300F67689 /* Assets.xcassets */,
 				161EC2951BD868C300F67689 /* LaunchScreen.storyboard */,
@@ -136,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				161EC29F1BD8693200F67689 /* test.html in Resources */,
 				161EC2971BD868C300F67689 /* LaunchScreen.storyboard in Resources */,
 				161EC2941BD868C300F67689 /* Assets.xcassets in Resources */,
 				161EC2921BD868C300F67689 /* Main.storyboard in Resources */,
@@ -149,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				161EC2A21BD86ACF00F67689 /* SecondViewController.m in Sources */,
 				161EC28F1BD868C300F67689 /* ViewController.m in Sources */,
 				161EC28C1BD868C300F67689 /* AppDelegate.m in Sources */,
 				161EC2891BD868C300F67689 /* main.m in Sources */,
